@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: url(bg\ photo.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+    font-family: sans-serif;
+    position: relative;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 80px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: -2%;
+    mix-blend-mode: color-burn;
+}
+
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    margin-top: -3%;
+    color: rgb(3, 7, 110);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: rgb(155, 11, 59);
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(3, 7, 110);
+}
+
+.info h3 {
+    font-size: 18px;
+    color: rgb(3, 7, 110);
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.info span {
+    color: rgb(155, 11, 59);
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 15px;
+    margin: 24px 0px;
+    background-color: rgb(3, 7, 110, 0.1);
+    font-size: 18px;
+    transition: .4s ease;
+}
+
+.btn:hover {
+    color: aliceblue;
+    background-color: rgb(3, 7, 110);
+}
+
+.image {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 100%;
+    bottom: 0%;
+}
+
+.image img {
+    position: absolute;
+    width: 85%;
+    height: 130%;
+    left: 298%;
+    bottom: 40px;
+    border-radius: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 92px;
+}
+
+.icons a {
+    padding: 5px 10px;
+    margin: 24px 0px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(3, 7, 110);
+}
+
+.icons a:hovar {
+    color: rgb(155, 11, 59);
+}
+

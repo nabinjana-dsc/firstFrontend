@@ -123,7 +123,8 @@ ul li a:hover {
     color: rgb(3, 7, 110);
 }
 
-.icons a:hovar {
+.icons a:hover {
     color: rgb(155, 11, 59);
+    text-shadow: red -6px 0, cyan 6px 0;
 }
 
